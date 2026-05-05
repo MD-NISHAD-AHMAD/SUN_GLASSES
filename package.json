@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node Server.js",
     "dev": "nodemon server.js",
     "server": "json-server --watch db.json --port 3000"
   },
